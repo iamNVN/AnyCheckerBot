@@ -58,7 +58,7 @@ Replace var `API_KEY` With Your Bot Token on line 5 And Save it.
 ### Heroku
 #### Easy Way to Deploy
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/xditya/TeleBot)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/IndianBots/AnyCheckerBot)
 
 - Only two environment variables are required
    - `BOT_TOKEN`:   You can get this value from [@Botfather](https://telegram.me/Botfather)
