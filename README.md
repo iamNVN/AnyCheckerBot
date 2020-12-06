@@ -36,10 +36,12 @@ You can use, study share and improve it at your will. Specifically you can redis
 **There Are 2 Ways**
 * [LocalServer](#LocalServer)
 * [Heroku](#Heroku)
+
 <br>
+
 ### LocalServer
 
-<b>Edit The <code lang="php">main.php</code> File..
+Edit The <code lang="php">main.php</code> File..
 
 Replace var `API_KEY` With Your Bot Token on line 5 And Save it.
 
@@ -53,7 +55,7 @@ Replace var `API_KEY` With Your Bot Token on line 5 And Save it.
 
 ```ngrok http https://localhost```
 
-</b>
+
 
 
 ### Heroku
