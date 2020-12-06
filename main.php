@@ -2,13 +2,11 @@
 
 ob_start();
 
-
 ///////////===[IMPORTING RESOURCES]===///////////
 
 include "./Resources/Vars.php";
 include "./Resources/Functions.php";
 
-define('API_KEY',$API_KEY);
 
 ///////////===[IMPORTING PLUGINS]===///////////
 
@@ -19,7 +17,7 @@ include "./Plugins/weather.php";
 include "./Plugins/dictionary.php";
 include "./Plugins/proxy.php";
 
-
+define('API_KEY',$API_KEY);
 ////////////////=========[START MESSAGE]=========////////////////
 
 if(strpos($text, "/start") === 0){
@@ -48,7 +46,7 @@ if (isset($TG_DUMP_CHAT)) {
 	'text'=>"<b>User Started Bot</b>
 
 First Name:- $from_fname
-User Name:- $username2
+User Name:- @$username2
 User ID:- <code>$from_id</code>
 Current Time:- <code>$date1</code>",
 	'parse_mode'=>'html',
@@ -70,7 +68,7 @@ I can do Several Things!</b>
 Click on the buttons below to get documentation about specific modules!",
 	'parse_mode'=>'html',
 	'reply_markup'=>json_encode(['inline_keyboard'=>[
-	[['text'=>"Bin Checker",'callback_data'=>"bin"],['text'=>"Weather",'callback_data'=>"weather"],['text'=>"Proxy",'callback_data'=>"proxy"]],[['text'=>"Git Info",'callback_data'=>"comms"],['text'=>"IBAN Checker",'callback_data'=>"iban"],['text'=>"SK Checker",'callback_data'=>"stripe"]],
+	[['text'=>"Bin Checker",'callback_data'=>"bin"],['text'=>"Dictionary",'callback_data'=>"dict"],['text'=>"IBAN Checker",'callback_data'=>"iban"]],[['text'=>"Proxy Scrapper",'callback_data'=>"proxy"],['text'=>"SK Checker",'callback_data'=>"stripe"],['text'=>"Weather",'callback_data'=>"weather"]],
 	],'resize_keyboard'=>true])
 	]);
 }
@@ -88,7 +86,7 @@ Click on the buttons below to get documentation about specific modules!",
 	'parse_mode'=>'html',
 	'reply_to_message_id'=> $message_id,
 	'reply_markup'=>json_encode(['inline_keyboard'=>[
-	[['text'=>"Bin Checker",'callback_data'=>"bin"],['text'=>"Weather",'callback_data'=>"bots"],['text'=>"Channels & Groups",'callback_data'=>"channels"]],[['text'=>"Git Info",'callback_data'=>"comms"],['text'=>"IBAN Checker",'callback_data'=>"iban"],['text'=>"SK Checker",'callback_data'=>"stripe"]],
+	[['text'=>"Bin Checker",'callback_data'=>"bin"],['text'=>"Dictionary",'callback_data'=>"dict"],['text'=>"IBAN Checker",'callback_data'=>"iban"]],[['text'=>"Proxy Scrapper",'callback_data'=>"proxy"],['text'=>"SK Checker",'callback_data'=>"stripe"],['text'=>"Weather",'callback_data'=>"weather"]],
 	],'resize_keyboard'=>true])
 	]);
 }
@@ -113,19 +111,17 @@ Command:</b>
 }
 
 
-////////////////=========[WEATHER INFO]=========////////////////
+////////////////=========[DICTIONARY]=========////////////////
 
-if($data == "weather"){
+if($data == "dict"){
 	bot('editMessageText',[
 	'chat_id'=>$chatid,
 	'message_id'=>$messageid,
-	'text'=>"<b>🌀 Weather Info 🌀
+	'text'=>"<b>🌀 Dictionary 🌀
 
 Command:</b>
 
-/weather <code>&lt;Name of City&gt;</code> - Provides the Current Weather of the Provided City.
-
-<b>Note:-</b> <code>It only Supports Cities.</code>",
+/dict <code>&lt;word&gt;</code> - Provides the Meaning of the Given Word.",
 	'parse_mode'=>'html',
 	'reply_markup'=>json_encode(['inline_keyboard'=>[
 	[['text'=>"Return",'callback_data'=>"help"]],
@@ -191,5 +187,27 @@ Command:</b>
 	],'resize_keyboard'=>true])
 	]);
 }
+
+
+////////////////=========[WEATHER INFO]=========////////////////
+
+if($data == "weather"){
+	bot('editMessageText',[
+	'chat_id'=>$chatid,
+	'message_id'=>$messageid,
+	'text'=>"<b>🌀 Weather Info 🌀
+
+Command:</b>
+
+/weather <code>&lt;Name of City&gt;</code> - Provides the Current Weather of the Provided City.
+
+<b>Note:-</b> <code>It only Supports Cities.</code>",
+	'parse_mode'=>'html',
+	'reply_markup'=>json_encode(['inline_keyboard'=>[
+	[['text'=>"Return",'callback_data'=>"help"]],
+	],'resize_keyboard'=>true])
+	]);
+}
+
 
 ?>
