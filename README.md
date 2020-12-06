@@ -9,11 +9,11 @@
 * [Deployment](#Deployment)
 
 
-##About
+## About
 
 **[AnyChecker Bot](https://telegram.me/AnyCheckerBot)** is an Open Source Project for IndianBots Under the License **GNU Public License V3.0**. This Project is Base on Pure PHP and it doesn't Use any External Libraries.
 <br>
-####**Features**
+#### Features
 
 *  Bin Checker
 * Dictionary 
@@ -56,7 +56,7 @@ You can use, study share and improve it at your will. Specifically you can redis
 
 
 ### Heroku
-####Easy Way to Deploy
+#### Easy Way to Deploy
 
 [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/xditya/TeleBot)
 
@@ -66,7 +66,7 @@ You can use, study share and improve it at your will. Specifically you can redis
 - The Bot will not work without setting the mandatory vars.
 <br>
 
-####Manual Way to Deploy
+#### Manual Way to Deploy
 
 
 ```
