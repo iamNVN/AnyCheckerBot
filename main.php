@@ -6,6 +6,7 @@ ob_start();
 
 include "./Resources/Vars.php";
 include "./Resources/Functions.php";
+define('API_KEY',$API_KEY);
 
 
 ///////////===[IMPORTING PLUGINS]===///////////
@@ -17,7 +18,7 @@ include "./Plugins/weather.php";
 include "./Plugins/dictionary.php";
 include "./Plugins/proxy.php";
 
-define('API_KEY',$API_KEY);
+
 ////////////////=========[START MESSAGE]=========////////////////
 
 if(strpos($text, "/start") === 0){
