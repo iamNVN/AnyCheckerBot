@@ -2,14 +2,13 @@
 
 ob_start();
 
-define('API_KEY',$API_KEY);
-
 
 ///////////===[IMPORTING RESOURCES]===///////////
 
 include "./Resources/Vars.php";
 include "./Resources/Functions.php";
 
+define('API_KEY',$API_KEY);
 
 ///////////===[IMPORTING PLUGINS]===///////////
 
