@@ -8,6 +8,14 @@ date_default_timezone_set('Asia/Kolkata'); //Default Timezone. Currently set for
 $date1 = date("h:i:s d-m-Y"); //Current Date and Time
 
 
+////////////////=========[VARIABLES FROM CONFIG]=========////////////////
+
+$API_KEY = $_ENV['BOT_TOKEN'];
+$USERNAMEBOT = $_ENV['BOT_USERNAME'];
+$WEATHER_API = $_ENV['WEATHER_API_KEY'];
+$TG_DUMP_CHAT = $_ENV['TG_DUMP_CHAT'];
+
+
 ////////////////=========[VARIABLES OF MESSAGE]=========////////////////
 
 $message = $update->message; //Message
