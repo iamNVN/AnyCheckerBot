@@ -54,9 +54,7 @@ Replace var `API_KEY` With Your Bot Token on line 5 And Save it.
 7. Run ngrok.exe and Type the Following Command
 
 ```ngrok http https://localhost```
-
-
-
+<br>
 
 ### Heroku
 #### Easy Way to Deploy
