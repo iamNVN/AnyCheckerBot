@@ -1,6 +1,6 @@
 # <h1 align="center"><a href="https://github.com/IndianBots/AnyCheckerBot"><img src="https://github-readme-stats.vercel.app/api/pin?username=IndianBots&show_icons=true&theme=dark&hide_border=true&repo=AnyCheckerBot"></a></h1>
 
-<h1 align="left"><b>[AnyChecker Bot](https://telegram.me/AnyCheckerBot)</b></h1>
+# <b>[AnyChecker Bot](https://telegram.me/AnyCheckerBot)</b></h1>
 
 #### Table Of Contents
 * [About](#About)
