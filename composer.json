@@ -1,0 +1,8 @@
+{
+	"name": "Any Checker Bot",
+	"description": "A Telegram Bot made in Pure PHP with Several Features!",
+	"keywords": ["heroku", "telegram-bot", "php", "bot", "indianbots"],
+	"homepage": "https://github.com/IndianBots/AnyCheckerBot",
+	"type": "repo",
+	"license": "GPL"
+}
