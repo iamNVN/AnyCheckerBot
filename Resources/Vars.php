@@ -5,18 +5,19 @@
 $update = json_decode(file_get_contents("php://input"));
 
 
-/////////////////////////////////////////////////////////////////
-
-date_default_timezone_set('Asia/Kolkata'); //Default Timezone. Currently set for India
-$date1 = date("h:i:s d-m-Y"); //Current Date and Time for Logging
-
-
 ////////////////=========[VARIABLES FROM CONFIG]=========////////////////
 
 $API_KEY = $_ENV['BOT_TOKEN'];
 $USERNAMEBOT = $_ENV['BOT_USERNAME'];
 $WEATHER_API = $_ENV['WEATHER_API_KEY'];
 $TG_DUMP_CHAT = $_ENV['TG_DUMP_CHAT'];
+$TIMEZONELOG = $_ENV['TIMEZONE'];
+
+
+/////////////////////////////////////////////////////////////////
+
+date_default_timezone_set($TIMEZONELOG); //Default Timezone
+$date1 = date("h:i:s d-m-Y"); //Current Date and Time for Logging
 
 
 ////////////////=========[VARIABLES OF MESSAGE]=========////////////////
