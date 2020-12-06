@@ -77,6 +77,7 @@ Set Config Vars for `BOT_TOKEN` and `BOT_USERNAME` in the Settings of the app
 Then Manual Deploy and done
 ```
 <br>
+
 ## Creator
 **This Open Source Project Was Created By [Ninja Naveen](https://telegram.me/ninjanaveen)**
 
