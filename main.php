@@ -2,8 +2,6 @@
 
 ob_start();
 
-$API_KEY = $_ENV['BOT_TOKEN'];
-$USERNAMEBOT = $_ENV['BOT_USERNAME'];
 define('API_KEY',$API_KEY);
 
 
@@ -40,6 +38,24 @@ Click the Button Below to open help menu!</b>",
   ],'resize_keyboard'=>true])
 	
   ]);
+
+
+//////////////////////////////////////////////
+
+if (isset($TG_DUMP_CHAT)) {
+
+    bot('sendmessage',[
+	'chat_id'=>$TG_DUMP_CHAT,
+	'text'=>"<b>User Started Bot</b>
+
+First Name:- $from_fname
+User Name:- $username2
+User ID:- <code>$from_id</code>
+Current Time:- <code>$date1</code>",
+	'parse_mode'=>'html',
+	
+  ]);
+}
 
 }
 
