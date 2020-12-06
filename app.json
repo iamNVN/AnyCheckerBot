@@ -27,6 +27,11 @@
         "TG_DUMP_CHAT": {
             "description": "Chat ID of a Private Group/Channel to store Logs",
             "required": false
+        },
+        "TIMEZONE": {
+            "description": "Your Timezone for Logging Time",
+            "value": "Asia/Kolkata",
+            "required": false
         }
     },
     "formation": {
