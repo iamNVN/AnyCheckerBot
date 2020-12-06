@@ -36,8 +36,7 @@ You can use, study share and improve it at your will. Specifically you can redis
 * [Heroku](#Heroku)
 
 ### LocalServer
-<details>
-    <summary>Click Here To See Deployment Process On LocalServer</summary>
+
     <b>Edit The <code lang="php">main.php</code> File..
 
     Replace var API_KEY With Your Bot Token on line 5 And Save it.
@@ -52,7 +51,7 @@ You can use, study share and improve it at your will. Specifically you can redis
 
 ```ngrok http https://localhost```
 
-</b></details>
+</b>
 
 
 ### Heroku
