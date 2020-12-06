@@ -4,8 +4,11 @@
 
 $update = json_decode(file_get_contents("php://input"));
 
+
+/////////////////////////////////////////////////////////////////
+
 date_default_timezone_set('Asia/Kolkata'); //Default Timezone. Currently set for India
-$date1 = date("h:i:s d-m-Y"); //Current Date and Time
+$date1 = date("h:i:s d-m-Y"); //Current Date and Time for Logging
 
 
 ////////////////=========[VARIABLES FROM CONFIG]=========////////////////
