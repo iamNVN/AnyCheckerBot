@@ -37,7 +37,6 @@ You can use, study share and improve it at your will. Specifically you can redis
 * [LocalServer](#LocalServer)
 * [Heroku](#Heroku)
 
-<br>
 
 ### LocalServer
 
