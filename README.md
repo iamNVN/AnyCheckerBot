@@ -29,8 +29,8 @@
 
 - [ ] URL Shortner with GPLinks & Bitly Support
 - [ ] Valid Email Checker
-- [x] <u>Covid-19 Stats
-- [x] Currency Converter</u>
+- [x] ~~Covid-19 Stats~~
+- [x] ~~Currency Converter~~
 
 ## License
 [![GNU GPLv3 Image](https://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.en.html)  
