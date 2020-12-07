@@ -23,7 +23,22 @@ $roundrate = explode('.', $ratev2);
 
 
 /////////////////===============[Result]===========///////////////////
+	
+if(strpos($get20, 'Invalid API call')){ 
+    bot('sendmessage',[
+	'chat_id'=>$chat_id,
+	'text'=>"<b>That's not a Valid Currency or it is an Invalid Syntax</b>
 
+<b>━━━━━━━━━━━━━
+Checked By </b><b>@$username2</b> (<code>$from_id</code>)",
+	'parse_mode'=>'html',
+	'reply_to_message_id'=> $message_id,
+	
+  ]);
+}
+
+/////////////////////////////////////////////////////////////
+else{
 bot('sendmessage',[
 	'chat_id'=>$chat_id,
 	'text'=>"<b>🌐 Converted $from $to To $to2
@@ -39,7 +54,7 @@ bot('sendmessage',[
 
 
 }
-
+}
 
 
 ?>
