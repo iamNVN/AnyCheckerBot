@@ -1,5 +1,5 @@
 <?php
-if(strpos($message, "/cash") === 0){
+if(strpos($text, "/cash") === 0){
 
 $combo = substr($text, 6);
 function multiexplode($delimiters, $string){
