@@ -71,7 +71,7 @@ I can do Several Things!</b>
 Click on the buttons below to get documentation about specific modules!",
 	'parse_mode'=>'html',
 	'reply_markup'=>json_encode(['inline_keyboard'=>[
-	[['text'=>"Bin Checker",'callback_data'=>"bin"],['text'=>"Covid-19 Stats",'callback_data'=>"covid"],['text'=>"Currency Converter",'callback_data'=>"monigay"]['text'=>"Dictionary",'callback_data'=>"dict"],['text'=>"IBAN Checker",'callback_data'=>"iban"]],[['text'=>"Proxy Scrapper",'callback_data'=>"proxy"],['text'=>"SK Checker",'callback_data'=>"stripe"],['text'=>"Weather",'callback_data'=>"weather"]],
+	[['text'=>"Bin Checker",'callback_data'=>"bin"],['text'=>"Covid-19 Stats",'callback_data'=>"covid"],['text'=>"Currency Converter",'callback_data'=>"monigay"]],[['text'=>"Dictionary",'callback_data'=>"dict"],['text'=>"IBAN Checker",'callback_data'=>"iban"],['text'=>"Proxy Scrapper",'callback_data'=>"proxy"]],[['text'=>"SK Checker",'callback_data'=>"stripe"],['text'=>"Weather",'callback_data'=>"weather"]],
 	],'resize_keyboard'=>true])
 	]);
 }
@@ -89,11 +89,10 @@ Click on the buttons below to get documentation about specific modules!",
 	'parse_mode'=>'html',
 	'reply_to_message_id'=> $message_id,
 	'reply_markup'=>json_encode(['inline_keyboard'=>[
-	[['text'=>"Bin Checker",'callback_data'=>"bin"],['text'=>"Covid-19 Stats",'callback_data'=>"covid"],['text'=>"Currency Converter",'callback_data'=>"monigay"]['text'=>"Dictionary",'callback_data'=>"dict"],['text'=>"IBAN Checker",'callback_data'=>"iban"]],[['text'=>"Proxy Scrapper",'callback_data'=>"proxy"],['text'=>"SK Checker",'callback_data'=>"stripe"],['text'=>"Weather",'callback_data'=>"weather"]],
+	[['text'=>"Bin Checker",'callback_data'=>"bin"],['text'=>"Covid-19 Stats",'callback_data'=>"covid"],['text'=>"Currency Converter",'callback_data'=>"monigay"]],[['text'=>"Dictionary",'callback_data'=>"dict"],['text'=>"IBAN Checker",'callback_data'=>"iban"],['text'=>"Proxy Scrapper",'callback_data'=>"proxy"]],[['text'=>"SK Checker",'callback_data'=>"stripe"],['text'=>"Weather",'callback_data'=>"weather"]],
 	],'resize_keyboard'=>true])
 	]);
 }
-
 
 ////////////////=========[BIN INFO]=========////////////////
 
