@@ -26,7 +26,7 @@
 #### #ToDo Lists
 
 - [ ] URL Shortner with GPLinks & Bitly Support
-- [ ] File ID Of the Sent File
+- [ ] Valid Email Checker
 - [ ] Covid-19 Stats
 - [ ] Currency Converter
 
@@ -46,9 +46,9 @@ You can use, study share and improve it at your will. Specifically you can redis
 
 ### LocalServer
 
-Edit The <code lang="php">main.php</code> File..
+Edit The <code lang="php">Resources/Vars.php</code> File..
 
-Replace var `API_KEY` With Your Bot Token on line 5 And Save it.
+Replace `VARIABLES FROM CONFIG` With Your Vars And Save it.
 
 1. Download an Run any Localhost. XAMPP Preffered.
 2. Fork the Repo and Download it to your Local Machine. Copy it and Extract it to htdocs folder
