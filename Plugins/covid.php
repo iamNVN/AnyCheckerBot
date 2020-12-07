@@ -1,7 +1,7 @@
 <?php
-if(strpos($message, "/covid") === 0){
+if(strpos($text, "/covid") === 0){
 
-$combo = substr($message, 6);
+$combo = substr($text, 6);
 function multiexplode($delimiters, $string){
 $one = str_replace($delimiters, $delimiters[0], $string);
 $two = explode($delimiters[0], $one);
