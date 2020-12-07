@@ -16,7 +16,9 @@
 
 #### Features
 
-*  Bin Checker
+* Bin Checker
+* Covid-19 Stats
+* Currency Converter
 * Dictionary 
 * IBAN Checker
 * Proxy Scrapper
@@ -27,8 +29,8 @@
 
 - [ ] URL Shortner with GPLinks & Bitly Support
 - [ ] Valid Email Checker
-- [ ] Covid-19 Stats
-- [ ] Currency Converter
+- [x] <u>Covid-19 Stats
+- [x] Currency Converter</u>
 
 ## License
 [![GNU GPLv3 Image](https://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.en.html)  
