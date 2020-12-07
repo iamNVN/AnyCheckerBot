@@ -31,6 +31,10 @@ bot('sendmessage',[
 
 🔹Price = $roundrate[0] $to2
 
+$value
+
+$get20
+
 🌀 Converted By $USERNAMEBOT</b>",
 	'parse_mode'=>'html',
 	'reply_to_message_id'=> $message_id,
