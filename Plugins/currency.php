@@ -16,10 +16,10 @@ $str = explode($end, $str[1]);
 return $str[0];}
 
 
-$get20 = file_get_contents('https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_currency='.$to.'&to_currency='.$to2.'&apikey=-xyz');
+$get20 = file_get_contents('https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_currency='.$from.'&to_currency='.$to.'&apikey=-xyz');
 $value = trim(strip_tags(GetStr($get20,' Exchange Rate": "','"'))); 
 
-$ratev2 = $from*$value;
+$ratev2 = $from*$cval;
 $roundrate = explode('.', $ratev2);
 
 
@@ -34,6 +34,11 @@ bot('sendmessage',[
 $value
 
 $get20
+
+$cval
+$from
+$to
+$to2
 
 🌀 Converted By $USERNAMEBOT</b>",
 	'parse_mode'=>'html',
