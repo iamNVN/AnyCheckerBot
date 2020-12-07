@@ -17,6 +17,7 @@ include "./Plugins/stripekey.php";
 include "./Plugins/weather.php";
 include "./Plugins/dictionary.php";
 include "./Plugins/proxy.php";
+include "./Plugins/covid.php";
 
 
 ////////////////=========[START MESSAGE]=========////////////////
