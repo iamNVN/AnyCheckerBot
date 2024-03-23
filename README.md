@@ -89,11 +89,11 @@ Then Manual Deploy and done
 <br>
 
 ## Creator
-**This Open Source Project Was Created By [Ninja Naveen](https://telegram.me/ninjanaveen)**
+**This Open Source Project Was Created By [Ninja Naveen](https://telegram.me/iamnvn)**
 
 **Star The Tool For More Support**
 <p align="center">
-<a href="https://telegram.me/ninjanaveen">
+<a href="https://telegram.me/iamnvn">
     <img src="https://avatars1.githubusercontent.com/u/67575446?s=460&v=4" alt="profile1" height="200" align="center"/>
 </a>
 </p>
