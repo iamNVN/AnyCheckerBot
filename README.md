@@ -89,7 +89,7 @@ Then Manual Deploy and done
 <br>
 
 ## Creator
-**This Open Source Project Was Created By [Ninja Naveen](https://telegram.me/iamnvn)**
+**This Open Source Project Was Created By [Naveen Kumar](https://telegram.me/iamnvn)**
 
 **Star The Tool For More Support**
 <p align="center">
